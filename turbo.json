@@ -10,7 +10,6 @@
       "outputs": [".next/**", "!.next/cache/**", "dist/**"]
     },
     "dev": {
-      "dependsOn": ["^dev"],
       "cache": false,
       "persistent": true
     },
@@ -18,18 +17,18 @@
       "dependsOn": ["^build"],
       "persistent": true
     },
+    "check:types": {
+      "outputs": [".cache/tsbuildinfo.json"]
+    },
+    "//#check": {
+      "cache": false
+    },
+    "//#fix": {},
     "clean": {
       "cache": false
     },
     "//#clean": {
       "cache": false
-    },
-    "check:types": {
-      "dependsOn": ["^check:types"]
-    },
-    "//#check": {
-      "cache": false
-    },
-    "//#fix": {}
+    }
   }
 }

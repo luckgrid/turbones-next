@@ -14,9 +14,6 @@
     "start": {
       "env": ["DOTENV_*", "NEXT_PUBLIC_*", "*_API_KEY"],
       "persistent": true
-    },
-    "check:types": {
-      "outputs": [".cache/tsbuildinfo.json"]
     }
   }
 }
