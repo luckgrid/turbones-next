@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "dotenvx run -- next dev -p $(dotenvx get PORT) --turbopack",
+    "build": "dotenvx run -- next build --turbopack",
+    "start": "dotenvx run -- next start -p $(dotenvx get PORT)",
+    "check:types": "next typegen && tsc --noEmit",
+    "clean": "git clean -xdf .next .turbo node_modules"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "catalog:",
+    "next": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@config/tailwind": "workspace:*",
+    "@config/typescript": "workspace:*",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "typescript": "catalog:"
+  }
+}

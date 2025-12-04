@@ -1,0 +1,16 @@
+packages:
+  - apps/*
+  - configs/*
+  - packages/*
+
+catalog:
+  '@dotenvx/dotenvx': ^1.51.1
+  '@tailwindcss/postcss': ^4.1.17
+  '@types/node': ^22.19.1
+  '@types/react': ^19.2.7
+  '@types/react-dom': ^19.2.3
+  next: ^16.0.7
+  react: ^19.2.1
+  react-dom: ^19.2.1
+  tailwindcss: ^4.1.17
+  typescript: ^5.9.3

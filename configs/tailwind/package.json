@@ -1,0 +1,17 @@
+{
+  "name": "@config/tailwind",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules"
+  },
+  "exports": {
+    "./postcss.config": "./postcss.config.mjs",
+    "./styles.css": "./styles.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "catalog:",
+    "tailwindcss": "catalog:"
+  }
+}

@@ -1,0 +1,34 @@
+/* TEAM */
+
+Design, Engineering & Architecture: Luckgrid Inc
+Site: luckgrid.net
+Contact: admin [at] luckgrid.net
+From: Las Vegas, NV, USA
+
+/* THANKS */
+
+Architecture: Turborepo
+Twitter: @turborepo
+
+Environments: Dotenvx
+Twitter: @dotenvx
+
+App Framework: NextJS
+Twitter: @nextjs
+
+UI Library: React
+Twitter: @reactjs
+
+CSS Utility: TailwindCSS
+Twitter: @tailwindcss
+
+Language: TypeScript
+Twitter: @TypeScript
+
+/* SITE */
+
+Last Update: 2025/12/03
+Language: English
+Doctype: HTML5
+IDE: Cursor
+Software: Turborepo, Dotenvx, NextJS, React, TailwindCSS, TypeScript

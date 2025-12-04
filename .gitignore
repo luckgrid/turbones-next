@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Package Manager
+.pnp
+.pnp.js
+pnpm-debug.log*
+
+# Environments
+.env*.local
+.env.keys
+
+# Outputs
+.cache/
+.next/
+.turbo/
+
+# Build Outputs
+build/
+dist/
+out/
+
+# Test Outputs
+coverage/
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+*.pem

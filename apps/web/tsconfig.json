@@ -1,0 +1,19 @@
+{
+  "extends": "@config/typescript/next.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@/*": ["./*"],
+      "@config/*": ["../../configs/*"]
+    }
+  },
+  "include": [
+    ".next/types/**/*.ts",
+    "next-env.d.ts",
+    "next.config.ts",
+    "tailwind.css",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
